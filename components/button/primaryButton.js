@@ -1,8 +1,8 @@
-import styles from "./mainBotton.module.css";
+import styles from "./primaryButton.module.css";
 
 const MainButton = ({ label, click }) => {
   return (
-    <button className={styles.mainButton} onClick={click}>
+    <button className={styles.button} onClick={click}>
       {label}
     </button>
   );
